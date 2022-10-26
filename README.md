@@ -84,3 +84,10 @@ split_dataset(cars, 30, 447)
 #> 42    20   56
 #> 43    20   64
 ```
+
+The above code shows the usage of this function, which splits the
+dataset ‘cars’ into a training set and a holdout set. The size of the
+training set is 30, and the size of the holdout set will be the rest.
+The third parameter can be a random number to generate randomness in
+sampling the data. Note that the size of the training set must be
+smaller or equal to the size of the total dataset.
