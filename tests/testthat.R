@@ -7,7 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(datateachr)
 library(splitDat)
 
 test_check("splitDat")
