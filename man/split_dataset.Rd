@@ -7,8 +7,11 @@
 split_dataset(data, ntrain, seed)
 }
 \arguments{
-\item{'data'}{is a data frame or tbl for the dataset
-'ntrain' will be numeric, 'seed' will be the numeric}
+\item{data}{is a data frame or tbl for the dataset}
+
+\item{ntrain}{will be numeric as the size of the training set}
+
+\item{seed}{will be the numeric to generate randomness}
 }
 \value{
 a list containing both training and holdout sets
@@ -22,5 +25,5 @@ where the training set will contain 'ntrain' of examples
 'ntrain' must be smaller or equal to the total size of 'data'
 }
 \examples{
-split_dataset(datateachr::cancer_sample, 300, 447)
+split_dataset(cars, 30, 447)
 }

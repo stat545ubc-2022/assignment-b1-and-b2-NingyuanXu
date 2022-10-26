@@ -1,13 +1,11 @@
 Package: splitDat
 Title: Split the dataset 
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
-    person("Ningyuan", "Xu", , "Ningyuan.Xu@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Ningyuan", "Xu", , "Ningyuan.Xu@example.com", role = c("aut", "cre"))
 Description: This function splits the dataset into training and holdout sets, with the size of training set specified.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
-URL: https://github.com/NingyuanXu/splitDat
-BugReports: https://github.com/NingyuanXu/splitDat/issues
+Suggests:testthat
