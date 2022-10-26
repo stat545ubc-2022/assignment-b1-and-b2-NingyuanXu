@@ -6,7 +6,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of splitDat is to …
+The goal of splitDat is to split the dataset into training and holdout
+sets, with the size of training set specified. This way we can use the
+training set to train the alogrithm and then use the holdout set to test
+the performance of the algorithm.
 
 ## Installation
 
